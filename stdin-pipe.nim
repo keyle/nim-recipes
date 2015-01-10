@@ -3,9 +3,9 @@
 
 # option 1
 let x = stdin.readAll
-echo "^ " & x
+echo "content: " & x
  
 # option 2
 while not endoffile(stdin): 
     let x = stdin.readLine
-    echo "^ " & x
+    echo "content: " & x
